@@ -1,2 +1,7 @@
 Apenas testando,
     Hello World;
+
+Adicionando algumas 
+linhas para fazer 
+um commit 
+e um merge;
