@@ -1,0 +1,49 @@
+.tasksContent {
+    margin-top: 1.5rem;
+    height: auto;
+    padding: 1rem;
+    border:  1px solid var(--gray-400);
+    border-radius: 8px;
+    background: var(--gray-500);
+}
+
+.tasksContent + .tasksContent {
+    margin-top: 1rem;
+}
+
+.tasksContent div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.tasksContent div input {
+    /* padding: .25rem; */
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    background: transparent;
+}
+
+/* .tasksContent div label {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+} */
+
+.tasksContent div button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+    padding: .25rem;
+}
+
+.tasksContent div button:hover {
+    color: var(--danger);
+    background: var(--gray-400);
+    padding: .25rem;
+}
