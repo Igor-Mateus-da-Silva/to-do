@@ -26,11 +26,42 @@
     background: transparent;
 }
 
-/* .tasksContent div label {
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-} */
+.tasksContent div label input {
+    flex-shrink: 0;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    /* margin-right: 10px; */
+    appearance: none;
+    padding: 0px;
+    background: var(--danger);
+    border: 2px solid var(--gray-400);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    overflow: hidden;
+}
+
+.tasksContent div label input {
+    flex-shrink: 0;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    /* margin-right: 10px; */
+    appearance: none;
+    padding: 0px;
+    background: transparent;
+    border: 2px solid var(--blue-300);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    overflow: hidden;
+}
+
+.tasksContent div label input:checked {
+    background: var(--purple-300);
+    border: 2px solid var(--purple-300);
+}
 
 .tasksContent div button {
     background: transparent;
