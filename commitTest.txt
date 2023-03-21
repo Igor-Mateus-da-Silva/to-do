@@ -5,3 +5,5 @@ Adicionando algumas
 linhas para fazer 
 um commit 
 e um merge;
+
+Terceiro Commit;
