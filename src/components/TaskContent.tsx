@@ -16,7 +16,9 @@ export function TaskContent ({ content, isChecked = false, onDeleteTask }: TaskC
     return (
         <div className={styles.tasksContent}>
             <div>
-                <input type="checkbox" />
+                <label>
+                    <input type="checkbox" />
+                </label>
                 <span>{content}</span>
                 <button onClick={handleDeleteComment} title="Deletar tarefa">
                     <Trash size={24} />
